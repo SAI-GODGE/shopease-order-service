@@ -1,1 +1,44 @@
+apiVersion: v1
+kind: Pod
 
+metadata:
+  name: shopease-orders
+  labels:
+    app: shopease-orders
+    env: staging
+
+spec:
+  restartPolicy: OnFailure
+
+  containers:
+
+    - name: db
+      image: localhost/shopease-order-db:1.0
+      env:
+        - name: POSTGRES_DB
+          value: orders
+        - name: POSTGRES_USER
+          value: shopease
+        - name: POSTGRES_PASSWORD
+          value: shopease123
+
+    - name: api
+      image: localhost/shopease-order-api:1.0
+      env:
+        - name: DB_HOST
+          value: 127.0.0.1
+        - name: DB_NAME
+          value: orders
+        - name: DB_USER
+          value: shopease
+        - name: DB_PASSWORD
+          value: shopease123
+
+    - name: gateway
+      image: localhost/shopease-gateway:1.0
+      env:
+        - name: API_HOST
+          value: 127.0.0.1
+      ports:
+        - containerPort: 80
+          hostPort: 8081
