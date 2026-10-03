@@ -435,7 +435,7 @@ Possible extensions for this project:
 - [ ] Deploy to Kubernetes/OpenShift
 - [ ] Add HTTPS/TLS to the gateway
 ## ⭐ Project Highlights
-```text
+
 ✅ Multi-container architecture
 ✅ Nginx reverse proxy
 ✅ Flask REST API
@@ -447,7 +447,7 @@ Possible extensions for this project:
 ✅ Environment-based configuration
 ✅ Non-root application container
 ✅ API & database verification
-```
+
 👨‍💻 Author
 <div align="center">
 Saiprasad Godge
