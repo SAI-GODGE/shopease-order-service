@@ -372,21 +372,6 @@ Inspect images
 ```text
 podman images
 ```
-📸 Project Screenshots
-Add your actual project screenshots here after uploading them to GitHub.
-
-Application Health Check
-/api/health
-
-Order Listing
-/api/orders
-
-Podman Compose
-podman-compose ps
-
-Pod Deployment
-podman pod ps
-
 ## 🎯 What I Learned
 Through this project, I practiced:
 - 🐳 Container image creation using Containerfiles
