@@ -37,11 +37,11 @@ The project demonstrates how the **same container images** can be deployed using
 Development  →  Podman Compose
 Staging      →  Podman Pod + Kubernetes YAML
 ```
-# 🏗️ Architecture
+## 🏗️ Architecture
 
 <img src="docs/architecture.png" alt="ShopEase Order Service Architecture" width="900">
 
-🔐 Network Flow
+## 🔐 Network Flow
 ```text
                     Public Access
                          │
@@ -68,7 +68,7 @@ Staging      →  Podman Pod + Kubernetes YAML
 🔒 Only the Nginx gateway is exposed to the host.
 The Flask API and PostgreSQL database are not directly published.
 
-🔄 Deployment Workflow
+## 🔄 Deployment Workflow
 ```text
         ┌─────────────────────┐
         │   Source Code       │
@@ -93,14 +93,13 @@ The Flask API and PostgreSQL database are not directly published.
 ```
 
 🧩 Two Deployment Models
-
 | Environment | Deployment | Port | Networking |
 |---|---|---:|---|
 | 🧪 Development | Podman Compose | `8080` | Service-name DNS |
 | 🚀 Staging | Podman Pod + K8s YAML | `8081` | Shared localhost |
 
 
-🧠 Key Networking Concept
+## 🧠 Key Networking Concept
 One of the main concepts demonstrated in this project is how container networking changes between Compose and Podman Pods.
 Podman Compose
 API → DB_HOST=db
