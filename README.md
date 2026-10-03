@@ -424,7 +424,7 @@ Possible extensions for this project:
 
 ## ⭐ Project Highlights
 
-<div align="center">
+<div align="left">
 
 | | Highlights |
 |:---:|---|
@@ -476,12 +476,6 @@ Possible extensions for this project:
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </p>
-
-<br>
-
-⭐ **If you found this project useful, consider giving the repository a star!**
-
-</div>
 
 ---
 
