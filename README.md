@@ -422,23 +422,21 @@ Possible extensions for this project:
 
 ---
 
-## ⭐ Project Highlights
+# ⭐ Project Highlights
 
-<div align="left">
+<div align="center">
 
-| | Highlights |
-|:---:|---|
-| 🧩 | **Multi-container architecture** |
-| 🌐 | **Nginx reverse proxy** |
-| ⚙️ | **Flask REST API** |
-| 🗄️ | **PostgreSQL database** |
-| 📦 | **Podman Containerfiles** |
-| 🔄 | **Podman Compose deployment** |
-| 🚀 | **Podman Pod deployment** |
-| ☸️ | **Kubernetes-compatible YAML** |
-| 🔐 | **Environment-based configuration** |
-| 🛡️ | **Non-root application container** |
-| 🔍 | **API & database verification** |
+<p>🧩 <strong>Multi-container architecture</strong></p>
+<p>🌐 <strong>Nginx reverse proxy</strong></p>
+<p>⚙️ <strong>Flask REST API</strong></p>
+<p>🗄️ <strong>PostgreSQL database</strong></p>
+<p>📦 <strong>Podman Containerfiles</strong></p>
+<p>🔄 <strong>Podman Compose deployment</strong></p>
+<p>🚀 <strong>Podman Pod deployment</strong></p>
+<p>☸️ <strong>Kubernetes-compatible YAML</strong></p>
+<p>🔐 <strong>Environment-based configuration</strong></p>
+<p>🛡️ <strong>Non-root application container</strong></p>
+<p>🔍 <strong>API &amp; database verification</strong></p>
 
 </div>
 
