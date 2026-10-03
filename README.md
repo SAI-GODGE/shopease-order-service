@@ -91,10 +91,13 @@ The Flask API and PostgreSQL database are not directly published.
          ▼                    ▼
      :8080                :8081
 ```
+
 🧩 Two Deployment Models
-Environment	Deployment	Port	Networking
-🧪 Development	Podman Compose	8080	Service-name DNS
-🚀 Staging	Podman Pod + K8s YAML	8081	Shared localhost
+
+| Environment | Deployment | Port | Networking |
+|---|---|---:|---|
+| 🧪 Development | Podman Compose | `8080` | Service-name DNS |
+| 🚀 Staging | Podman Pod + K8s YAML | `8081` | Shared localhost |
 
 
 🧠 Key Networking Concept
