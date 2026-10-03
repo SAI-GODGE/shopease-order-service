@@ -419,27 +419,76 @@ Possible extensions for this project:
 - [ ] Add secrets management
 - [ ] Deploy to Kubernetes/OpenShift
 - [ ] Add HTTPS/TLS to the gateway
+
+---
+
 ## ⭐ Project Highlights
 
-✅ Multi-container architecture
-✅ Nginx reverse proxy
-✅ Flask REST API
-✅ PostgreSQL database
-✅ Podman Containerfiles
-✅ Podman Compose deployment
-✅ Podman Pod deployment
-✅ Kubernetes-compatible YAML
-✅ Environment-based configuration
-✅ Non-root application container
-✅ API & database verification
-
-👨‍💻 Author
 <div align="center">
-Saiprasad Godge
-Cloud & DevOps Enthusiast
-  
-Building hands-on projects around:
 
-Linux • AWS • Podman • Docker • Kubernetes • Ansible • CI/CD
+| | Highlights |
+|:---:|---|
+| 🧩 | **Multi-container architecture** |
+| 🌐 | **Nginx reverse proxy** |
+| ⚙️ | **Flask REST API** |
+| 🗄️ | **PostgreSQL database** |
+| 📦 | **Podman Containerfiles** |
+| 🔄 | **Podman Compose deployment** |
+| 🚀 | **Podman Pod deployment** |
+| ☸️ | **Kubernetes-compatible YAML** |
+| 🔐 | **Environment-based configuration** |
+| 🛡️ | **Non-root application container** |
+| 🔍 | **API & database verification** |
+
+</div>
+
+---
+
+# 👨‍💻 Author
+
+<div align="center">
+
+### **Saiprasad Godge**
+
+**Cloud & DevOps Enthusiast**
+
+<br>
+
+### 🛠️ Technologies
+
+<p>
+  <img src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white" alt="Podman"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible"/>
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+</p>
+
+<br>
+
+⭐ **If you found this project useful, consider giving the repository a star!**
+
+</div>
+
+---
+
+<div align="center">
+
+### 🚀 Build → Containerize → Deploy → Verify
+
+**ShopEase Order Service | Podman Live Project**
 
 </div>
