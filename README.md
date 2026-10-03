@@ -69,14 +69,15 @@ Staging      →  Podman Pod + Kubernetes YAML
 The Flask API and PostgreSQL database are not directly published.
 
 🔄 Deployment Workflow
+```text
         ┌─────────────────────┐
         │   Source Code       │
         └──────────┬──────────┘
                    │
                    ▼
         ┌─────────────────────┐
-        │ Build Container      │
-        │ Images               │
+        │ Build Container     │
+        │ Images              │
         └──────────┬──────────┘
                    │
           ┌────────┴────────┐
@@ -89,7 +90,7 @@ The Flask API and PostgreSQL database are not directly published.
          │                    │
          ▼                    ▼
      :8080                :8081
-
+```
 🧩 Two Deployment Models
 Environment	Deployment	Port	Networking
 🧪 Development	Podman Compose	8080	Service-name DNS
