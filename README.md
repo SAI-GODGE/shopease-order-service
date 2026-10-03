@@ -424,7 +424,7 @@ Possible extensions for this project:
 
 # ⭐ Project Highlights
 
-<div align="center">
+<div align="left">
 
 <p>🧩 <strong>Multi-container architecture</strong></p>
 <p>🌐 <strong>Nginx reverse proxy</strong></p>
