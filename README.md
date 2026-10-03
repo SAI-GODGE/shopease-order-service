@@ -39,13 +39,10 @@ Staging      →  Podman Pod + Kubernetes YAML
 ```
 # 🏗️ Architecture
 
-<div align="center">
-
 <img src="docs/architecture.png" alt="ShopEase Order Service Architecture" width="900">
 
-</div>
-
 🔐 Network Flow
+```text
                     Public Access
                          │
                          ▼
@@ -67,7 +64,7 @@ Staging      →  Podman Pod + Kubernetes YAML
                  │ PostgreSQL    │
                  │    :5432      │
                  └───────────────┘
-
+```
 🔒 Only the Nginx gateway is exposed to the host.
 The Flask API and PostgreSQL database are not directly published.
 
