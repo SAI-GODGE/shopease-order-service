@@ -1,1 +1,7 @@
+FROM docker.io/library/nginx:1.27-alpine
 
+LABEL app="shopease-gateway" version="1.0"
+
+COPY default.conf.template /etc/nginx/templates/default.conf.template
+
+EXPOSE 80
